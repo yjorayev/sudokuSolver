@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Sudoku</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div style='text-align: center'>
+		<h1 id='status'>Sudoku</h1>
+		<table id='board' class='mytable'>
+			
+		</table>
+		<button class=" mybtn" onclick=solve() style="margin-top: 15px">Solve</button>
+		<button class=" mybtn" onclick=reset() style="margin-top: 15px">Reset</button>
+	</div>
+	<div id='exp'>
+		<p>This is an app that solves Sudoku problem. It fills up the empty cells according the values you input and following Sudoku rules.</p>
+		<p>It uses backtracking algorith to find the solution.</p>
+	</div>
+ 
+ 
+</body>
+<script src="sudoku.js"></script>
+</html>
